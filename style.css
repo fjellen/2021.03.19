@@ -1,0 +1,29 @@
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 8px;
+}
+
+.förstoring {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.parent {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.parent .child {
+    width: 64px;
+    height: 64px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+}
